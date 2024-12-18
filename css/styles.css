@@ -135,3 +135,24 @@ a {
         padding-left: 0;
     }
 }
+
+/* ICONS */
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center ; /* to align center horizontal */
+    align-items: center; /* to align to secondary aka vertical axis*/
+
+}
