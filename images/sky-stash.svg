@@ -1,0 +1,76 @@
+<svg
+    version="1.1"
+    width="600"
+    height="400"
+    viewBox="0 0 600 400"
+    xmlns="http://www.w3.org/2000/svg"
+>
+  <title>Sky Stash Logo</title>
+  <desc>
+    A stylized cloud with a black outline, white interior, a red padlock,
+    and “Sky Stash” text in white, all on a transparent background.
+  </desc>
+
+  <!-- Black cloud outline -->
+  <path
+    d="
+      M100,140
+      C100,100 140,80 180,80
+      C220,80 260,100 260,140
+      C300,140 330,170 330,200
+      C330,225 300,220 270,220
+      H140
+      C110,220 100,190 100,160
+      Z
+    "
+    fill="#000000"
+  />
+
+  <!-- White cloud interior -->
+  <path
+    d="
+      M110,140
+      C110,110 140,90 180,90
+      C220,90 250,110 250,140
+      C290,140 320,165 320,190
+      C320,210 290,210 260,210
+      H150
+      C120,210 110,180 110,165
+      Z
+    "
+    fill="#FFFFFF"
+  />
+
+  <!-- Red lock body -->
+  <rect
+    x="165"
+    y="110"
+    width="30"
+    height="30"
+    rx="5"
+    fill="#D32F2F"
+  />
+
+  <!-- Lock shackle (black) -->
+  <path
+    d="M165,110 C165,100 195,100 195,110"
+    stroke="#000000"
+    stroke-width="5"
+    fill="none"
+  />
+
+  <!-- White keyhole -->
+  <circle cx="180" cy="125" r="4" fill="#FFFFFF" />
+
+  <!-- "Sky Stash" text in white -->
+  <text
+    x="125"
+    y="280"
+    font-family="Arial, sans-serif"
+    font-size="48"
+    font-weight="bold"
+    fill="#FFFFFF"
+  >
+    Sky Stash
+  </text>
+</svg>
