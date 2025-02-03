@@ -194,6 +194,10 @@ a {
 .icon-container--accent {
   background: var(--color-accent);
 }
+.icon-chev {
+  color: white;
+  background: black;
+}
 
 /* Buttons */
 .btn {
@@ -692,7 +696,7 @@ a {
 }
 
 .nav__image {
-  height: 1rem;
+  height: 5rem;
 }
 /* means to select somthing that has both these classes for sure .nav.collapsible--expanded */
 @media screen and (min-width: 768px) {
