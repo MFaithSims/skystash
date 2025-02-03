@@ -696,7 +696,7 @@ a {
 }
 
 .nav__image {
-  height: 5rem;
+  height: 2rem;
 }
 /* means to select somthing that has both these classes for sure .nav.collapsible--expanded */
 @media screen and (min-width: 768px) {
